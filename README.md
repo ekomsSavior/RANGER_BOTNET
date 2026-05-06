@@ -324,13 +324,4 @@ go run ./cmd/payloads fileransom --arg dir=/tmp/test --arg action=encrypt
 | `--beacon-max` | `300` | Maximum beacon interval (seconds) |
 | `--debug` | `false` | Enable verbose logging |
 
----
-
-## Future Directions
-
-- gRPC native protocol for lower latency
-- WebAssembly payload modules for sandboxed execution
-- Tor /.onion C2 fronting for operational security
-- Certificate transparency monitoring integration
-- Implant firmware / kernel module variants
-- E4B (Encryption for Beatings) — ransomware module with verifiable decryption demo
+<img width="866" height="150" alt="image13" src="https://github.com/user-attachments/assets/3bffe6ec-1021-4e37-8805-9390039eb8d0" />
