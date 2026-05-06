@@ -299,32 +299,6 @@ go run ./cmd/payloads fileransom --arg dir=/tmp/test --arg action=encrypt
 
 ---
 
-## Project Structure
-
-```
-ranger-homi3/
-├── cmd/
-│   ├── c2/              # C2 server entry point
-│   ├── stager/          # Stager binary entry point
-│   └── payloads/        # Standalone payload CLI
-├── internal/
-│   ├── api/             # HTTP/WS server, routes, embedded dashboard
-│   ├── crypto/          # Ed25519, XChaCha20-Poly1305, key derivation
-│   ├── dns/             # DNS tunnel client
-│   ├── implantpkg/      # Core implant logic (beacon, exec, execPayload)
-│   ├── mesh/            # P2P mesh networking
-│   ├── protocol/        # Shared types (beacon, task, result, implant, mesh)
-│   ├── store/           # SQLite database layer
-│   └── payloads/        # 23 native Go payload modules
-├── payloads/            # Legacy Python payloads (deprecated)
-├── build/               # Compiled binaries
-├── deploy.sh            # Deployment script
-├── go.mod / go.sum
-└── README.md
-```
-
----
-
 ## Command-Line Flags
 
 ### C2 Server (`./build/ranger-c2`)
