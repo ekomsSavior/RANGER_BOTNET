@@ -1,6 +1,6 @@
 # Ranger C3 v3.0.0
 
-**Distributed Multi-Node Mesh C2 Framework** — Go native, no Python dependencies.
+**Distributed Multi-Node Mesh C2 Framework**
 
 ```
   ██████  █████  ███    ██  ██████  ███████ ██████  
