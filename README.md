@@ -13,6 +13,7 @@
 **Ranger C3** is a distributed, multi-node Command & Control framework built for red team operations. It features a P2P mesh topology for resilience, encrypted WebSocket C2 channels, DNS tunneling fallback, a full operator web dashboard, and a library of native Go payload modules.
 
 **DISCLAIMER** FOR EDUCATIONAL PURPOSES AND AUTHORIZED SECURITY TESTING ONLY.
+
 ---
 
 ## Key Features
